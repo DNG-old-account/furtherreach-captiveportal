@@ -1,0 +1,9 @@
+#content {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.95);
+    margin: 0 auto;
+    padding: 20px 40px 20px;
+    width: 880px;
+    opacity: 0.5;
+    filter: alpha(opacity=50); // For IE
+    -moz-opacity:0.5; // For Firefox < 5.0
+}

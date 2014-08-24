@@ -1,0 +1,1 @@
+$("background").backstretch("../fogsunsetsm.jpg");
