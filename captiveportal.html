@@ -16,82 +16,65 @@
 </head>
 
 <body>
-<div class="container">
-<div class="container-fluid">
-<!--<div class="alert alert-info" role="alert">-->
-<div id="content">
-<a href="http://furtherreach.net"><img src="FurtherReachLogo.svg" width="143px" height="40px"></a><br>
-<center>
-<h1>Welcome to the Internet!</h1>
-</center>
-<p class="lead">This super-fast Further Reach hotspot is brought to you free of charge by <a href="http://denovogroup.org">De Novo Group</a>, a non-profit organization 
-dedicated to connecting underserved communities to the Internet.</p>
-<p class="lead">If you would like to receive our service at your home or business, <a href="http://furtherreach.net/sign-up/">please sign up here</a>.</p>
+  <div class="container-fluid">
+    <!--<div class="alert alert-info" role="alert">-->
+    <div class="row-fluid">
 
-<form class="form-horizontal">
-<fieldset>
+    <div id="content" class="col-xs-12 col-md-10 col-md-offset-1">
+      <a href="http://furtherreach.net"><img src="FurtherReachLogo.svg" width="143px" height="40px"></a>
+      <br>
+      <center>
+        <h1>Welcome to the Internet!</h1>
+      </center>
+      <p class="lead">
+        This super-fast Further Reach hotspot is brought to you free of charge by <a href="http://denovogroup.org">De Novo Group</a>, a non-profit organization 
+        dedicated to connecting underserved communities to the Internet.
+      </p>
+      <p class="lead">
+        If you would like to receive our service at your home or business, <a href="http://furtherreach.net/sign-up/">please sign up here</a>.
+      </p>
 
-<!-- Form Name -->
-<legend>Sign in:</legend>
+      <form class="form-horizontal" role="form">
+        <div class="well">
 
-<!-- Text input-->
-<div class="control-group">
-  <label class="control-label" for="name">Name</label>
-  <div class="controls">
-    <input id="name" name="name" placeholder="Full Name" class="input-large" required="" type="text">
-    
+          <!-- Form Name -->
+          <legend>Sign in:</legend>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="control-label" for="name">Name</label>
+            <input id="name" name="name" class="form-control" placeholder="Full Name" class="input-large" required="" type="text">
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="control-label" for="email">Email</label>
+            <input id="email" name="email" class="form-control" placeholder="Email Address" class="input-xlarge" type="text">
+          </div>
+
+          <!-- Multiple Checkboxes (inline) -->
+          <div class="checkbox">
+            <label>
+              <input name="agree" id="agree-0" value="By checking the box to the left, you agree that you have read, understand and accept the terms and conditions of this agreement." required="required" type="checkbox">
+              By checking the box to the left, you agree that you have read, understand and accept the terms and conditions of this agreement.
+            </label>
+          </div>
+
+          <!-- Multiple Checkboxes (inline) -->
+          <div class="checkbox">
+            <label>
+              <input name="marketing" id="marketing-0" value="I agree to receive marketing communications from De Novo Group about its services and promotions by email." type="checkbox" checked>
+              I agree to receive marketing communications from De Novo Group about its services and promotions by email.
+            </label>
+          </div>
+
+          <div class="form-group submit-group">
+            <label class="control-label" for="signin"></label>
+            <button id="signin" name="signin" class="btn btn-primary">Sign In</button>
+          </div>
+        </div>
+      </form>
+    </div>
   </div>
-</div>
-
-<!-- Text input-->
-<div class="control-group">
-  <label class="control-label" for="email">Email</label>
-  <div class="controls">
-    <input id="email" name="email" placeholder="Email Address" class="input-xlarge" type="text">
-    
-  </div>
-</div>
-
-<!-- Multiple Checkboxes (inline) -->
-<div class="control-group">
-  <label class="control-label" for="agree"></label>
-  <div class="controls">
-    <label class="checkbox inline" for="agree-0">
-      <input name="agree" id="agree-0" value="By checking the box to the left, you agree that you have read, understand and accept the terms and conditions of this agreement." required="required" type="checkbox">
-      By checking the box to the left, you agree that you have read, understand and accept the terms and conditions of this agreement.
-    </label>
-  </div>
-</div>
-
-<!-- Multiple Checkboxes (inline) -->
-<div class="control-group">
-  <label class="control-label" for="marketing"></label>
-  <div class="controls">
-    <label class="checkbox inline" for="marketing-0">
-      <input name="marketing" id="marketing-0" value="I agree to receive marketing communications from De Novo Group about its services and promotions by email." type="checkbox" checked>
-      I agree to receive marketing communications from De Novo Group about its services and promotions by email.
-    </label>
-  </div>
-</div>
-<div class="control-group">
-  <label class="control-label" for="signin"></label>
-  <div class="controls">
-    <button id="signin" name="signin" class="btn btn-primary">Sign In</button>
-  </div>
-</div>
-</fieldset>
-</form>
-
-
-</center>
-</div>
-<script type='text/javascript' src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script type='text/javascript' src="js/jquery.backstretch.min.js"></script>
-<script>
-$.backstretch("fogsunsetsm.jpg");
-</script>
-<!--<div id="background" class="backstretch" style="position: absolute; margin: 0px; padding: 0px; border: medium none; width: 1288px; height: 858.667px; max-width: none; z-index: -999999; left: 0px; top: -238.833px;" src="fogsunsetsm.jpg">-->
-</div>
-</div>
 </body>
 </html>
