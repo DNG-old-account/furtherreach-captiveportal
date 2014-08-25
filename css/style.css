@@ -1,9 +1,25 @@
+body {
+    margin: 30px 100px 30px 100px;
+}
+
 #content {
-    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.95);
-    margin: 0 auto;
+    background: none repeat scroll 0 0 rgba(66, 139, 202, 0.2);
     padding: 20px 40px 20px;
-    width: 880px;
-    opacity: 0.5;
-    filter: alpha(opacity=50); // For IE
-    -moz-opacity:0.5; // For Firefox < 5.0
+}
+
+#content form .form-group {
+    width: 50%;
+}
+
+#content form .checkbox {
+    width: 100%;
+}
+
+#content form .submit-group {
+    margin-top: 20px;
+}
+
+#content form .well {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 20px 60px;
 }
